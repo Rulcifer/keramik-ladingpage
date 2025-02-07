@@ -8,7 +8,7 @@ const Category = () => {
       <div className="container">
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
           {/* first col */}
-          <div className="col-span-2 py-10 pl-5 bg-gradient-to-br from-gray-300/100 to-gray-900 text-white rounded-3xl relative h-[320px] flex items-end">
+          <div className="col-span-2 py-10 pl-5 bg-gradient-to-br from-gray-300/100 to-gray-900 text-white rounded-3xl relative h-[320px] flex items-end overflow-hidden">
             <div className="relative z-10">
               <div className="mb-4">
                 <p className="mb-[2px] text-gray-100">Jenis</p>
@@ -28,7 +28,7 @@ const Category = () => {
             />
           </div>
           {/* second col */}
-          <div className="py-10 pl-5 bg-gradient-to-br from-gray-300/100 to-blue-900 text-white rounded-3xl relative h-[320px] flex items-end">
+          <div className="py-10 pl-5 bg-gradient-to-br from-gray-300/100 to-blue-900 text-white rounded-3xl relative h-[320px] flex items-end overflow-hidden">
             <div className="relative z-10">
               <div className="mb-4">
                 <p className="mb-[2px] text-gray-100">Jenis</p>
@@ -50,7 +50,7 @@ const Category = () => {
             />
           </div>
           {/* third col */}
-          <div className="py-10 pl-5 bg-gradient-to-br from-gray-400/100 to-red-600 text-white rounded-3xl relative h-[320px] flex items-end">
+          <div className="py-10 pl-5 bg-gradient-to-br from-gray-400/100 to-red-600 text-white rounded-3xl relative h-[320px] flex items-end overflow-hidden">
             <div className="relative z-10">
               <div className="mb-4">
                 <p className="mb-[2px] text-gray-100">Jenis</p>
