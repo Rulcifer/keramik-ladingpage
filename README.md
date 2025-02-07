@@ -1,10 +1,5 @@
-Enjoy the Free Starter code + Assets 😍
-- Video tutorial link : https://youtu.be/4sc6BhgS_Co?feature=shared
-- Support us on YouTube Channel: [https://www.youtube.com/channel/UC1H-a1MKEFXRiFlGNLcy7gQ](https://www.youtube.com/@TheCodingJourney)
+Produk Keramik Landing Page
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+In this project, I built a landing page using React JSX as the main library for building the user interface. For styling, I use Tailwind CSS, which allows me to write styles more efficiently without having to create lots of separate CSS files.
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+To make development faster and more optimal, I use Vite as a build tool. Vite has advantages in startup speed and Hot Module Replacement (HMR), so code changes are immediately visible without the need to reload the page. Apart from that, Vite also produces builds that are lighter and more efficient compared to traditional tools such as Webpack.
