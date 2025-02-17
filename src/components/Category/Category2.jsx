@@ -8,7 +8,7 @@ const Category = () => {
       <div className="container">
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
           {/* first col */}
-          <div className="col-span-2 py-10 pl-5 bg-gradient-to-br from-gray-300/100 to-gray-900 text-white rounded-3xl relative h-[320px] flex items-end overflow-hidden">
+          <div className="sm:col-span-2 lg:col-span-2 py-10 pl-5 bg-gradient-to-br from-gray-300/100 to-gray-900 text-white rounded-3xl relative h-[320px] flex items-end overflow-hidden">
             <div className="relative z-10">
               <div className="mb-4">
                 <p className="mb-[2px] text-gray-100">Jenis</p>
@@ -24,7 +24,7 @@ const Category = () => {
             <img
               src={Image4}
               alt=""
-              className="h-[250px] w-[440px] absolute left-32 bottom-5 z-0 drop-shadow-[-8px_4px_6px_rgba(0,0,0,.4)]"
+              className="h-[250px] w-[540px] absolute left-32 bottom-5 z-0 drop-shadow-[-8px_4px_6px_rgba(0,0,0,.4)]"
             />
           </div>
           {/* second col */}
@@ -46,7 +46,7 @@ const Category = () => {
             <img
               src={Image5}
               alt=""
-              className="h-[250px] w-[140px] absolute left-32 bottom-5 z-0 drop-shadow-[-8px_4px_6px_rgba(0,0,0,.4)]"
+              className="h-[250px] w-[540px] absolute left-32 bottom-5 z-0 drop-shadow-[-8px_4px_6px_rgba(0,0,0,.4)]"
             />
           </div>
           {/* third col */}
@@ -66,7 +66,7 @@ const Category = () => {
             <img
               src={Image1}
               alt=""
-              className="h-[250px] w-[140px] absolute left-32 bottom-5 z-0 drop-shadow-[-8px_4px_6px_rgba(0,0,0,.4)]"
+              className="h-[250px] w-[540px] absolute left-32 bottom-5 z-0 drop-shadow-[-8px_4px_6px_rgba(0,0,0,.4)]"
             />
           </div>
         </div>

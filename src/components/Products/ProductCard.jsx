@@ -1,7 +1,7 @@
 const ProductCard = ({ data }) => {
   return (
     <div className="mb-10">
-      <div className="grid grid-cols-1 sm:grid-cols2 md:grid-cols-4 gap-5 place-items-center">
+      <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-4 gap-5 place-items-center">
         {/* data section */}
         {data.map((item) => (
           <div className="group" key={item.id}>
@@ -9,7 +9,7 @@ const ProductCard = ({ data }) => {
               <img
                 src={item.img}
                 alt={item.title}
-                className="[h-180px] w-[260px] object-cover rounded-md"
+                className="[h-80px] w-[160px] object-cover rounded-md"
               />
               {/* hover button */}
               <div

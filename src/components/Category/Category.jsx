@@ -26,7 +26,7 @@ const Category = () => {
             <img
               src={Image1}
               alt=""
-              className="h-[250px] w-[140px] absolute left-32 bottom-5 z-0 drop-shadow-[-8px_4px_6px_rgba(0,0,0,.4)]"
+              className="h-[250px] w-[540px] absolute left-32 bottom-5 z-0 drop-shadow-[-8px_4px_6px_rgba(0,0,0,.4)]"
             />
           </div>
           {/* second col */}
@@ -46,11 +46,11 @@ const Category = () => {
             <img
               src={Image2}
               alt=""
-              className="h-[250px] w-[140px] absolute left-32 bottom-5 z-0 drop-shadow-[-8px_4px_6px_rgba(0,0,0,.4)]"
+              className="h-[250px] w-[540px] absolute left-32 bottom-5 z-0 drop-shadow-[-8px_4px_6px_rgba(0,0,0,.4)]"
             />
           </div>
           {/* third col */}
-          <div className="col-span-2 py-10 pl-5 bg-gradient-to-br from-primary to-primary/90 text-white rounded-3xl relative h-[320px] flex items-end overflow-hidden">
+          <div className="sm:col-span-2 lg:col-span-2 py-10 pl-5 bg-gradient-to-br from-primary to-primary/90 text-white rounded-3xl relative h-[320px] flex items-end overflow-hidden">
             <div className="relative z-10">
               <div className="mb-4">
                 <p className="mb-[2px] text-gray-100">Jenis</p>
@@ -66,7 +66,7 @@ const Category = () => {
             <img
               src={Image3}
               alt=""
-              className="h-[250px] w-[440px] absolute left-32 bottom-5 z-0 drop-shadow-[-8px_4px_6px_rgba(0,0,0,.4)]"
+              className="h-[250px] w-[540px] absolute left-32 bottom-5 z-0 drop-shadow-[-8px_4px_6px_rgba(0,0,0,.4)]"
             />
           </div>
         </div>
