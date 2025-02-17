@@ -20,7 +20,50 @@ const FooterLinks = [
     link: "/#",
   },
   {
-    title: "Granit",
+    title: "Granit Lantai",
+    link: "/#",
+  },
+  {
+    title: "Granit Dinding",
+    link: "/#",
+  },
+];
+
+const FooterLinks2 = [
+  {
+    title: "Keramik 20x20",
+    link: "/#",
+  },
+  {
+    title: "Keramik 20x40",
+    link: "/#",
+  },
+  {
+    title: "Keramik 25x25",
+    link: "/#",
+  },
+  {
+    title: "Keramik 25x40",
+    link: "/#",
+  },
+  {
+    title: "Keramik 30x30",
+    link: "/#",
+  },
+  {
+    title: "Keramik 30x60",
+    link: "/#",
+  },
+  {
+    title: "Keramik 40x40",
+    link: "/#",
+  },
+  {
+    title: "Keramik 50x50",
+    link: "/#",
+  },
+  {
+    title: "Keramik 60x60",
     link: "/#",
   },
 ];
@@ -76,10 +119,10 @@ const Footer = () => {
             {/* second col link */}
             <div className="py-8 px-4">
               <h1 className="text-xl font-bold sm:text-left mb-3">
-                Menu Kedua
+                Kategori Keramik
               </h1>
               <ul className="space-y-3">
-                {FooterLinks.map((data, index) => (
+                {FooterLinks2.map((data, index) => (
                   <li key={index}>
                     <a
                       href={data.link}

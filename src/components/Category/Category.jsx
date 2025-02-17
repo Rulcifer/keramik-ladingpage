@@ -13,11 +13,9 @@ const Category = () => {
             <div className="relative z-10">
               <div className="mb-4">
                 <p className="mb-[2px] text-gray-100">Jenis</p>
-                <p className="text-2xl font-semibold mb-[2px] opacity-80">
-                  Keramik
-                </p>
+                <p className="text-2xl font-semibold mb-[2px]">Keramik</p>
                 <p className="text-4xl xl:text-5xl font-bold opacity-80">
-                  Lantai
+                  60x60
                 </p>
                 <button className="bg-white text-black cursor-pointer hover:scale-105 duration-300 py-2 px-8 rounded-full">
                   Beli Sekarang
@@ -35,10 +33,10 @@ const Category = () => {
             <div className="relative z-10">
               <div className="mb-4">
                 <p className="mb-[2px] text-gray-100">Jenis</p>
-                <p className="text-2xl font-semibold mb-[2px] opacity-80">
-                  Keramik
+                <p className="text-2xl font-semibold mb-[2px]">Keramik</p>
+                <p className="text-4xl xl:text-5xl font-bold opacity-80">
+                  50x50
                 </p>
-                <p className="text-4xl xl:text-5xl font-bold">Dinding</p>
                 <button className="bg-white text-black cursor-pointer hover:scale-105 duration-300 py-2 px-8 rounded-full">
                   Beli Sekarang
                 </button>
@@ -55,10 +53,10 @@ const Category = () => {
             <div className="relative z-10">
               <div className="mb-4">
                 <p className="mb-[2px] text-gray-100">Jenis</p>
-                <p className="text-2xl font-semibold mb-[2px] opacity-80">
-                  Granit
+                <p className="text-2xl font-semibold mb-[2px]">Keramik</p>
+                <p className="text-4xl xl:text-5xl font-bold opacity-80">
+                  25x50
                 </p>
-                <p className="text-4xl xl:text-5xl font-bold">Lantai</p>
                 <button className="bg-white text-black cursor-pointer hover:scale-105 duration-300 py-2 px-8 rounded-full">
                   Beli Sekarang
                 </button>
