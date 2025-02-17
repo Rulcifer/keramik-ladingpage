@@ -65,7 +65,7 @@ const ProductData = [
 const Products = () => {
   return (
     <div>
-      <div className="container">
+      <div className="container pt-8">
         {/* header section */}
         <Heading
           title="Produk lainnya"
