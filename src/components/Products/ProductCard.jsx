@@ -24,9 +24,9 @@ const ProductCard = ({ data }) => {
                 </button>
               </div>
             </div>
-            <p className="text-center text-sm sm:text-xs font-semibold text-gray-800">
+            {/* <p className="text-center text-sm sm:text-xs font-semibold text-gray-800">
               {item.title}
-            </p>
+            </p> */}
           </div>
         ))}
       </div>

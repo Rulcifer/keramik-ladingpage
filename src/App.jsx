@@ -14,7 +14,7 @@ import banner1 from "./assets/banner/banner4.jpg";
 import banner2 from "./assets/banner/banner5.jpg";
 // import smartwatch2 from "./assets/category/smartwatch2-removebg-preview.png";
 
-import Products from "./components/Products/Products";
+// import Products from "./components/Products/Products";
 import Products2 from "./components/Products/Products-2container";
 import Blogs from "./components/Blogs/Blogs";
 import Footer from "./components/Footer/Footer.jsx";
@@ -80,8 +80,8 @@ const App = () => {
       <Services />
       <BannerImg data={BannerData1} />
       {/* <Banner data={BannerData} /> */}
-      <Products />
-      {/* <Products2 /> */}
+      {/* <Products /> */}
+      <Products2 />
       {/* <div className="flex gap-4">
         <Banner data={BannerData2} />
         <Banner data={BannerData3} />

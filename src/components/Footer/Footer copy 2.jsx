@@ -16,10 +16,6 @@ const FooterLinks = [
     title: "Tentang Kami",
     link: "/#",
   },
-  {
-    title: "Hubungi Kami",
-    link: "/#",
-  },
 ];
 
 const FooterLinks2 = [
@@ -85,12 +81,7 @@ const Footer = () => {
             <p className="text-red-500 mt-4">Pondok Keramik Surabaya</p>
           </div>
           {/* footer link */}
-
-          {/* umum link */}
-          <div
-            className="col-span-2 grid grid-cols-2
-          sm:grid-cols-3 md:pl-10"
-          >
+          <div className="col-span-2 grid grid-cols-2 sm:grid-cols-3 md:pl-10">
             <div className="py-8 px-4">
               <h1 className="text-xl font-bold sm:text-left mb-3">Umum</h1>
               <ul className="space-y-3">
@@ -106,77 +97,66 @@ const Footer = () => {
                 ))}
               </ul>
             </div>
-
             {/* second col link */}
             <div className="py-8 px-4">
-              {/* company addres */}
               <h1 className="text-xl font-bold sm:text-left mb-3">
-                Informasi Toko
+                Kategori Keramik
               </h1>
               <ul className="space-y-3">
-                <div className="flex items-center gap-3">
-                  <FaLocationArrow />
-                  <p>Jl. Raya Menganti no 430, Wiyung, Surabaya</p>
-                </div>
-                <a
-                  className="flex items-center gap-3 mt-6 hover:text-red-500 hover:scale-105 transition-transform duration-300"
-                  href="https://api.whatsapp.com/send?phone=6285775005758"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <FaMobileAlt />
-                  <p>Admin 1: 0857 7500 5758</p>
-                </a>
-                <a
-                  className="flex items-center gap-3 mt-6 hover:text-red-500 hover:scale-105 transition-transform duration-300"
-                  href="https://api.whatsapp.com/send?phone=6282233024171"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <FaMobileAlt />
-                  <p>Admin 2: 0822 3302 4171</p>
-                </a>
+                {FooterLinks2.map((data, index) => (
+                  <li key={index}>
+                    <a
+                      href={data.link}
+                      className="text-gray-600 dark:text-gray-400 hover:dark:text-white hover:text-black duration-300"
+                    >
+                      {data.title}
+                    </a>
+                  </li>
+                ))}
               </ul>
             </div>
 
-            {/* social link */}
+            {/* company address */}
             <div className="py-8 px-4 col-span-2 sm:col-auto">
-              <h1 className="text-xl font-bold sm:text-left mb-3">
-                Ikuti Kami di
-              </h1>
-              <div className="flex items-center gap-3 mt-6 gap-3 mt-6">
-                <a href="https://www.instagram.com/pondokkeramik/">
-                  <FaInstagram
-                    className="text-3xl
-                    hover:text-primary duration-300"
-                  />
-                </a>
-                <a href="https://www.tiktok.com/@pondokkeramik?_t=8r6UiSXIyTR&_r=1">
-                  <FaTiktok
-                    className="text-3xl
-                    hover:text-primary duration-300"
-                  />
-                </a>
-                <a href="https://web.facebook.com/tokokeramiksurabaya?rdid=ahuNwtESdQHAthuI&share_url=https%3A%2F%2Fweb.facebook.com%2Fshare%2FfsDMbqTi5n3UB5wX%2F%3F_rdc%3D1%26_rdr#">
-                  <FaFacebook
-                    className="text-3xl
-                    hover:text-primary duration-300"
-                  />
-                </a>
+              <div className="flex items-center gap-3">
+                <FaLocationArrow />
+                <p>Jl. Raya Menganti no 430, Wiyung, Surabaya</p>
               </div>
+              <a
+                className="flex items-center gap-3 mt-6 hover:text-red-500 hover:scale-105 transition-transform duration-300"
+                href="https://api.whatsapp.com/send?phone=6285775005758"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <FaMobileAlt />
+                <p>Admin 1: 0857 7500 5758</p>
+              </a>
+              <a
+                className="flex items-center gap-3 mt-6 hover:text-red-500 hover:scale-105 transition-transform duration-300"
+                href="https://api.whatsapp.com/send?phone=6282233024171"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <FaMobileAlt />
+                <p>Admin 2: 0822 3302 4171</p>
+              </a>
             </div>
+
             {/* New Social Media Section */}
             <div className="py-8 px-4 col-span-2">
               <h1 className="text-xl font-bold sm:text-left mb-3">
-                Jam Operasional
+                Ikuti Kami Di
               </h1>
-              <div className="block items-center gap-3 mt-3">
-                <p href="https://www.instagram.com/pondokkeramik/">
-                  Senin – Jumat : 08.00-17.30
-                </p>
-                <p href="https://www.instagram.com/pondokkeramik/">
-                  Sabtu – Minggu : 08.00 – 17.00
-                </p>
+              <div className="flex items-center gap-3 mt-3">
+                <a href="https://www.instagram.com/pondokkeramik/">
+                  <FaInstagram className="text-3xl hover:text-primary duration-300" />
+                </a>
+                <a href="https://www.tiktok.com/@pondokkeramik?_t=8r6UiSXIyTR&_r=1">
+                  <FaTiktok className="text-3xl hover:text-primary duration-300" />
+                </a>
+                <a href="https://web.facebook.com/tokokeramiksurabaya">
+                  <FaFacebook className="text-3xl hover:text-primary duration-300" />
+                </a>
               </div>
             </div>
           </div>

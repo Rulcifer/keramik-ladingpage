@@ -1,7 +1,7 @@
 import Heading from "../Shared/Heading";
 import ProductCard from "../Products/ProductCard.jsx";
 // import Img1 from "../../assets/hero/keramik-hero.png";
-import Img1 from "../../assets/product/produk-keramik.png";
+import Img1 from "../../assets/product/keramik.png";
 
 const ProductData = [
   {
