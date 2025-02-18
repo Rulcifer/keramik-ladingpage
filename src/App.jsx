@@ -1,15 +1,15 @@
 import React from "react";
 import Navbar from "./components/Navbar/Navbar";
-import Hero from "./components/Hero/Hero";
+// import Hero from "./components/Hero/Hero";
 import HeroBanner from "./components/Hero/Hero-Banner";
 import Category from "./components/Category/Category";
 import Category2 from "./components/Category/Category2";
 import Services from "./components/Services/Services";
-import Banner from "./components/Banner/Banner";
+// import Banner from "./components/Banner/Banner";
 import BannerImg from "./components/Banner/BannerImg";
 import Partners from "./components/Partners/Partners.jsx";
 
-import keramik from "./assets/hero/keramik-hero.png";
+// import keramik from "./assets/hero/keramik-hero.png";
 import banner1 from "./assets/banner/banner4.jpg";
 import banner2 from "./assets/banner/banner5.jpg";
 // import smartwatch2 from "./assets/category/smartwatch2-removebg-preview.png";
@@ -29,29 +29,29 @@ const BannerData2 = {
   image: banner2,
 };
 
-const BannerData3 = {
-  discount: "30% OFF",
-  title: "Akhirnya",
-  date: "1 Feb to 28 Feb",
-  image: keramik,
-  title2: "Keramik Roman",
-  title3: "New Year Sale",
-  title4:
-    "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eaque reiciendis",
-  bgColor: "#2dcc6f",
-};
+// const BannerData3 = {
+//   discount: "30% OFF",
+//   title: "Akhirnya",
+//   date: "1 Feb to 28 Feb",
+//   image: keramik,
+//   title2: "Keramik Roman",
+//   title3: "New Year Sale",
+//   title4:
+//     "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eaque reiciendis",
+//   bgColor: "#2dcc6f",
+// };
 
-const BannerData4 = {
-  discount: "30% OFF",
-  title: "Akhirnya",
-  date: "1 Feb to 28 Feb",
-  image: keramik,
-  title2: "Keramik Roman",
-  title3: "New Year Sale",
-  title4:
-    "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eaque reiciendis",
-  bgColor: "#fdd871",
-};
+// const BannerData4 = {
+//   discount: "30% OFF",
+//   title: "Akhirnya",
+//   date: "1 Feb to 28 Feb",
+//   image: keramik,
+//   title2: "Keramik Roman",
+//   title3: "New Year Sale",
+//   title4:
+//     "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eaque reiciendis",
+//   bgColor: "#fdd871",
+// };
 
 const App = () => {
   const [orderPopup, setOrderPopup] = React.useState(false);

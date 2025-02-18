@@ -27,7 +27,7 @@ const Hero = () => {
   };
   return (
     // <div className="container py-8">
-    <div className="overflow-hidden min-h-[350px] flex justify-center items-center py-2">
+    <div className="overflow-hidden min-h-[50px] sm:min-h-[350px] flex justify-center items-center py-2">
       <div className="container py-4">
         {/* hero section */}
         <Slider {...settings}>
