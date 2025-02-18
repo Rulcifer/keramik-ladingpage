@@ -1,3 +1,4 @@
+import Heading from "../Shared/Heading";
 import Image1 from "../../assets/category/keramik1.png";
 import Image2 from "../../assets/category/keramik2.png";
 import Image3 from "../../assets/category/keramik3.png";
@@ -7,6 +8,8 @@ const Category = () => {
     // <div className="py-8">
     <div className="pt-8 pb-1">
       <div className="container">
+        {/* Header Section */}
+        <Heading title="Anda Mencari Keramik?" subtitle="Beli Cepat" />
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
           {/* first col */}
           <div className="py-10 pl-5 bg-gradient-to-br from-brandBlue/70 to-brandBlue text-white rounded-3xl relative h-[320px] flex items-end overflow-hidden">
