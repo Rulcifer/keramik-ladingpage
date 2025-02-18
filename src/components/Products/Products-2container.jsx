@@ -60,6 +60,13 @@ import Img48 from "../../assets/product/sanitary/Trilliun.png";
 import Img49 from "../../assets/product/sanitary/Wasser.png";
 import Img50 from "../../assets/product/sanitary/Wika.png";
 
+// Cat
+import Img51 from "../../assets/product/cat/Altex.png";
+import Img52 from "../../assets/product/cat/Asian-Paint.png";
+import Img53 from "../../assets/product/cat/Kansai-Paint.png";
+import Img54 from "../../assets/product/cat/Nippon.png";
+import Img55 from "../../assets/product/cat/Paragon.png";
+
 const ProductData = [
   // Keramik
   {
@@ -315,6 +322,33 @@ const ProductData = [
     id: 50,
     img: Img50,
     title: "Sanitary",
+  },
+
+  // Cat
+  {
+    id: 51,
+    img: Img51,
+    title: "Cat",
+  },
+  {
+    id: 52,
+    img: Img52,
+    title: "Cat",
+  },
+  {
+    id: 53,
+    img: Img53,
+    title: "Cat",
+  },
+  {
+    id: 54,
+    img: Img54,
+    title: "Cat",
+  },
+  {
+    id: 55,
+    img: Img55,
+    title: "Cat",
   },
 ];
 

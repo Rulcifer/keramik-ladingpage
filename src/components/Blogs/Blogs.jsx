@@ -8,21 +8,21 @@ const BlogData = [
     title: "Kreasi Keramik Modern: Gaya Minimalis untuk Rumah Masa Kini",
     subtitle:
       "Jadikan keramik sebagai elemen desain interior modern. Ide-ide segar untuk dekorasi rumah Anda ada di sini.",
-    published: "Feb 5, 2025 oleh Sahrul",
+    published: "Feb 5, 2025",
     image: Img1,
   },
   {
     title: "Keramik Ramah Lingkungan: Kreativitas yang Berkelanjutan",
     subtitle:
       "Bagaimana keramik dapat menjadi bagian dari gaya hidup berkelanjutan? Temukan jawaban dan inspirasinya di sini.",
-    published: "Feb 5, 2025 oleh Sahrul",
+    published: "Feb 5, 2025",
     image: Img2,
   },
   {
     title: "Tips Membuat Keramik untuk Pemula: Mulai dari Niat hingga Teknik",
     subtitle:
       "Bingung mulai dari mana? Artikel ini akan membantu Anda memahami langkah awal membuat keramik, mulai dari bahan hingga alat yang",
-    published: "Feb 5, 2025 oleh Sahrul",
+    published: "Feb 5, 2025",
     image: Img3,
   },
 ];
