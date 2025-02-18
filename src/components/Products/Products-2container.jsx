@@ -3,6 +3,8 @@ import { useState } from "react";
 
 import ProductCard from "../Products/ProductCard.jsx";
 // import Img1 from "../../assets/hero/keramik-hero.png";
+
+// Keramik
 import Img1 from "../../assets/product/keramik/Accura.png";
 import Img2 from "../../assets/product/keramik/Arwana.png";
 import Img3 from "../../assets/product/keramik/Asia-Tile.png";
@@ -27,7 +29,39 @@ import Img21 from "../../assets/product/keramik/Spectrum-1.png";
 import Img22 from "../../assets/product/keramik/Tierra.png";
 import Img23 from "../../assets/product/keramik/Uno.png";
 
+// Granit
+import Img24 from "../../assets/product/granit/Casanza.png";
+import Img25 from "../../assets/product/granit/Ceranosa.png";
+import Img26 from "../../assets/product/granit/Efata.png";
+import Img27 from "../../assets/product/granit/Eleganza.png";
+import Img28 from "../../assets/product/granit/Granito.png";
+import Img29 from "../../assets/product/granit/Infiniti.png";
+import Img30 from "../../assets/product/granit/Magia-1.png";
+import Img31 from "../../assets/product/granit/Meliuz.png";
+import Img32 from "../../assets/product/granit/Mgm.png";
+import Img33 from "../../assets/product/granit/Niro.png";
+import Img34 from "../../assets/product/granit/Quadra.png";
+import Img35 from "../../assets/product/granit/Rixo.png";
+import Img36 from "../../assets/product/granit/Roman-Granit.png";
+import Img37 from "../../assets/product/granit/Sandimas.png";
+import Img38 from "../../assets/product/granit/Serenity.png";
+import Img39 from "../../assets/product/granit/Titanium.png";
+import Img40 from "../../assets/product/granit/Valentino.png";
+import Img41 from "../../assets/product/granit/Vellino.png";
+import Img42 from "../../assets/product/granit/Vicenxa.png";
+
+// Sanitary
+import Img43 from "../../assets/product/sanitary/Ina.png";
+import Img44 from "../../assets/product/sanitary/Mago.png";
+import Img45 from "../../assets/product/sanitary/Onda.png";
+import Img46 from "../../assets/product/sanitary/Polaris.png";
+import Img47 from "../../assets/product/sanitary/TOTO.png";
+import Img48 from "../../assets/product/sanitary/Trilliun.png";
+import Img49 from "../../assets/product/sanitary/Wasser.png";
+import Img50 from "../../assets/product/sanitary/Wika.png";
+
 const ProductData = [
+  // Keramik
   {
     id: 1,
     img: Img1,
@@ -142,6 +176,145 @@ const ProductData = [
     id: 23,
     img: Img23,
     title: "Keramik",
+  },
+
+  // Granit
+  {
+    id: 24,
+    img: Img24,
+    title: "Granit",
+  },
+  {
+    id: 25,
+    img: Img25,
+    title: "Granit",
+  },
+  {
+    id: 26,
+    img: Img26,
+    title: "Granit",
+  },
+  {
+    id: 27,
+    img: Img27,
+    title: "Granit",
+  },
+  {
+    id: 28,
+    img: Img28,
+    title: "Granit",
+  },
+  {
+    id: 29,
+    img: Img29,
+    title: "Granit",
+  },
+  {
+    id: 30,
+    img: Img30,
+    title: "Granit",
+  },
+  {
+    id: 31,
+    img: Img31,
+    title: "Granit",
+  },
+  {
+    id: 32,
+    img: Img32,
+    title: "Granit",
+  },
+  {
+    id: 33,
+    img: Img33,
+    title: "Granit",
+  },
+  {
+    id: 34,
+    img: Img34,
+    title: "Granit",
+  },
+  {
+    id: 35,
+    img: Img35,
+    title: "Granit",
+  },
+  {
+    id: 36,
+    img: Img36,
+    title: "Granit",
+  },
+  {
+    id: 37,
+    img: Img37,
+    title: "Granit",
+  },
+  {
+    id: 38,
+    img: Img38,
+    title: "Granit",
+  },
+  {
+    id: 39,
+    img: Img39,
+    title: "Granit",
+  },
+  {
+    id: 40,
+    img: Img40,
+    title: "Granit",
+  },
+  {
+    id: 41,
+    img: Img41,
+    title: "Granit",
+  },
+  {
+    id: 42,
+    img: Img42,
+    title: "Granit",
+  },
+
+  // Sanitary
+  {
+    id: 43,
+    img: Img43,
+    title: "Sanitary",
+  },
+  {
+    id: 44,
+    img: Img44,
+    title: "Sanitary",
+  },
+  {
+    id: 45,
+    img: Img45,
+    title: "Sanitary",
+  },
+  {
+    id: 46,
+    img: Img46,
+    title: "Sanitary",
+  },
+  {
+    id: 47,
+    img: Img47,
+    title: "Sanitary",
+  },
+  {
+    id: 48,
+    img: Img48,
+    title: "Sanitary",
+  },
+  {
+    id: 49,
+    img: Img49,
+    title: "Sanitary",
+  },
+  {
+    id: 50,
+    img: Img50,
+    title: "Sanitary",
   },
 ];
 
