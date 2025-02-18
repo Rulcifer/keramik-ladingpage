@@ -67,6 +67,26 @@ import Img53 from "../../assets/product/cat/Kansai-Paint.png";
 import Img54 from "../../assets/product/cat/Nippon.png";
 import Img55 from "../../assets/product/cat/Paragon.png";
 
+// Tandon
+import Img56 from "../../assets/product/tandon/Maspion.png";
+import Img57 from "../../assets/product/tandon/Mpoin.png";
+import Img58 from "../../assets/product/tandon/Penguin.png";
+import Img59 from "../../assets/product/tandon/Profil-Tank.png";
+import Img60 from "../../assets/product/tandon/Tedmon.png";
+import Img61 from "../../assets/product/tandon/Trilliun-Basic.png";
+import Img62 from "../../assets/product/tandon/Wasser-Pump.png";
+
+// Semet Perekat
+import Img63 from "../../assets/product/semen-perekat/Demix.png";
+import Img64 from "../../assets/product/semen-perekat/Mortar-Utama.png";
+import Img65 from "../../assets/product/semen-perekat/Sika.png";
+
+// Pintu Jendela
+import Img66 from "../../assets/product/pintu-jendela/Golden-Agin.png";
+import Img67 from "../../assets/product/pintu-jendela/S-plus.png";
+
+import Img68 from "../../assets/logo-100x67.png";
+
 const ProductData = [
   // Keramik
   {
@@ -350,6 +370,79 @@ const ProductData = [
     img: Img55,
     title: "Cat",
   },
+
+  // Tandon
+  {
+    id: 56,
+    img: Img56,
+    title: "Tandon",
+  },
+  {
+    id: 57,
+    img: Img57,
+    title: "Tandon",
+  },
+  {
+    id: 58,
+    img: Img58,
+    title: "Tandon",
+  },
+  {
+    id: 59,
+    img: Img59,
+    title: "Tandon",
+  },
+  {
+    id: 60,
+    img: Img60,
+    title: "Tandon",
+  },
+  {
+    id: 61,
+    img: Img61,
+    title: "Tandon",
+  },
+  {
+    id: 62,
+    img: Img62,
+    title: "Tandon",
+  },
+
+  //Semen Perekat
+  {
+    id: 63,
+    img: Img63,
+    title: "Semen Perekat dan Nat",
+  },
+  {
+    id: 64,
+    img: Img64,
+    title: "Semen Perekat dan Nat",
+  },
+  {
+    id: 65,
+    img: Img65,
+    title: "Semen Perekat dan Nat",
+  },
+
+  //Pintu dan Jendela
+  {
+    id: 66,
+    img: Img66,
+    title: "Pintu dan Jendela",
+  },
+  {
+    id: 67,
+    img: Img67,
+    title: "Pintu dan Jendela",
+  },
+
+  //Kuku Macan, Lis, Stepnosing Tangga
+  {
+    id: 68,
+    img: Img68,
+    title: "Kuku Macan, Lis, Stepnosing Tangga",
+  },
 ];
 
 const categories = [
@@ -369,8 +462,7 @@ const categories = [
   { id: 14, title: "Vynil dan SPC" },
   { id: 15, title: "Scaffholding" },
   { id: 16, title: "Rolling Door Otomatis" },
-  { id: 17, title: "Atap" },
-  { id: 18, title: "Tanah Liat dan Spandek" },
+  { id: 17, title: "Atap, Tanah Liat dan Spandek" },
 ];
 
 const Products = () => {
