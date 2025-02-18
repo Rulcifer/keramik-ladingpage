@@ -3,7 +3,7 @@ import {
   FaLocationArrow,
   FaInstagram,
   FaFacebook,
-  FaLinkedin,
+  FaTiktok,
 } from "react-icons/fa6";
 
 const FooterLinks = [
@@ -80,14 +80,16 @@ const Footer = () => {
               className="text-primary font-semibold tracking-wideset
             text-2xl uppercase sm:text-3xl"
             >
-              Kshop
+              Pondok Keramik
             </a>
             <p className="text-gray-600 dark:text-white/70 lg:pr-24 pt-3">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur
-              at quam a elit ullamcorper luctus. Vestibulum id urna eget turpis
-              vulputate laoreet.
+              Toko Keramik Terlengkap dan Bahan Bangunan Finishing Lainnya di
+              Surabaya. Menjual ecer maupun partai keramik, granit, closet,
+              wastafel, kran, cat, tandon, pintu, pompa, water heater, lampu,
+              vynil, SPC, dan lainnya. Pondok Keramik solusi Belanja Hemat,
+              Pelayanan Terbaik, dan Pengiriman Cepat.
             </p>
-            <p className="text-gray-500 mt-4">Made Pondok Keramik Surabaya</p>
+            <p className="text-gray-500 mt-4">Pondok Keramik Surabaya</p>
             {/* <a
               href="https://www.instagram.com/pondokkeramik/"
               target="blank"
@@ -141,27 +143,41 @@ const Footer = () => {
                 <FaLocationArrow />
                 <p>Jl. Raya Menganti no 430, Wiyung, Surabaya</p>
               </div>
-              <div className="flex items-center gap-3 mt-6">
+              <a
+                className="flex items-center gap-3 mt-6 hover:text-red-500 hover:scale-105 transition-transform duration-300"
+                href="https://api.whatsapp.com/send?phone=6285775005758"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <FaMobileAlt />
-                <p>082233024171</p>
-              </div>
+                <p>Admin 1: 0857 7500 5758</p>
+              </a>
+              <a
+                className="flex items-center gap-3 mt-6 hover:text-red-500 hover:scale-105 transition-transform duration-300"
+                href="https://api.whatsapp.com/send?phone=6282233024171"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <FaMobileAlt />
+                <p>Admin 2: 0822 3302 4171</p>
+              </a>
 
               {/* social link */}
-              <div className="flex items-center gap-3 mt-6">
+              <div className="flex items-center gap-3 mt-6 item-center justify-center gap-3 mt-6">
                 <a href="https://www.instagram.com/pondokkeramik/">
                   <FaInstagram
                     className="text-3xl
                     hover:text-primary duration-300"
                   />
                 </a>
-                <a href="#">
-                  <FaFacebook
+                <a href="https://www.tiktok.com/@pondokkeramik?_t=8r6UiSXIyTR&_r=1">
+                  <FaTiktok
                     className="text-3xl
                     hover:text-primary duration-300"
                   />
                 </a>
-                <a href="#">
-                  <FaLinkedin
+                <a href="https://web.facebook.com/tokokeramiksurabaya?rdid=ahuNwtESdQHAthuI&share_url=https%3A%2F%2Fweb.facebook.com%2Fshare%2FfsDMbqTi5n3UB5wX%2F%3F_rdc%3D1%26_rdr#">
+                  <FaFacebook
                     className="text-3xl
                     hover:text-primary duration-300"
                   />

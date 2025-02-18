@@ -7,7 +7,7 @@ const ProductData = [
   {
     id: 1,
     img: Img1,
-    title: "Keramik ",
+    title: "Kermaik ",
     price: "50000",
     aosDelay: "0",
   },
@@ -132,19 +132,49 @@ const ProductData = [
   },
 ];
 
+const categories = [
+  { id: 1, title: "Keramik" },
+  { id: 2, title: "Granit" },
+  { id: 3, title: "Sanitary" },
+  { id: 4, title: "Cat" },
+  { id: 5, title: "Tandon" },
+  { id: 6, title: "Semen Perekat dan Nat" },
+  { id: 7, title: "Pintu dan Jendela" },
+  { id: 8, title: "Kuku Macan, Lis, Stepnosing Tangga" },
+  { id: 9, title: "Glassblock dan Loster / Roster" },
+  { id: 10, title: "Marmer" },
+  { id: 11, title: "Mosaic" },
+  { id: 12, title: "Lampu" },
+  { id: 13, title: "Dapur dan Rumah Tangga" },
+  { id: 14, title: "Vynil dan SPC" },
+  { id: 15, title: "Scaffholding" },
+  { id: 16, title: "Rolling Door Otomatis" },
+  { id: 17, title: "Atap" },
+  { id: 18, title: "Tanah Liat dan Spandek" },
+];
+
 const Products = () => {
   return (
     <div>
-      <div className="container pt-8">
-        {/* header section */}
-        <Heading
-          title="Produk lainnya"
-          subtitle="Jelajahi Produk Kami"
-        ></Heading>
-        {/* body section */}
-        <div className="overflow-x-auto no-scrollbar">
-          <ProductCard data={ProductData}></ProductCard>
+      {/* header section */}
+      <Heading title="Produk lainnya" subtitle="Jelajahi Produk Kami"></Heading>
+      <div className="container pt-8 flex gap-6">
+        {/* Sidebar Kategori */}
+        <div className="w-1/4 bg-gray-100 p-4 rounded-lg shadow">
+          {/* <h3 className="text-lg font-bold mb-4">Produk Kami</h3> */}
+          <ul className="space-y-2">
+            {categories.map((category) => (
+              <li
+                key={category.id}
+                className="cursor-pointer hover:text-blue-500"
+              >
+                {category.title}
+              </li>
+            ))}
+          </ul>
         </div>
+        {/* body section */}
+        <ProductCard data={ProductData}></ProductCard>
       </div>
     </div>
   );

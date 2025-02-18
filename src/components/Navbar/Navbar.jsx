@@ -4,17 +4,17 @@ import { IoMdSearch } from "react-icons/io";
 const MenuLinks = [
   {
     id: 1,
-    name: "Keramik Lantai",
+    name: "Halaman Utama",
     link: "/#",
   },
   {
     id: 2,
-    name: "Keramik Dinding",
+    name: "Produk",
     link: "/#shop",
   },
   {
     id: 3,
-    name: "Granite",
+    name: "Promosi",
     link: "/#about",
   },
 ];
