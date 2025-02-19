@@ -85,7 +85,42 @@ import Img65 from "../../assets/product/semen-perekat/Sika.png";
 import Img66 from "../../assets/product/pintu-jendela/Golden-Agin.png";
 import Img67 from "../../assets/product/pintu-jendela/S-plus.png";
 
-import Img68 from "../../assets/logo-100x67.png";
+//kuku macan, lis, stepnosing tangga
+//marmer
+//rolling door otomatis
+import ImgPondokKeramik from "../../assets/logo-100x67.png";
+
+//Glassblock loster
+import Img68 from "../../assets/product/glassblock-loster/Mulia.png";
+
+//Mosaic
+import Img69 from "../../assets/product/mosaic/Eleganza.png";
+import Img70 from "../../assets/product/mosaic/Enzo.png";
+import Img71 from "../../assets/product/mosaic/Mass.png";
+
+//Lampu
+import Img72 from "../../assets/product/lampu/Casabella.png";
+import Img73 from "../../assets/product/lampu/Inlite.png";
+
+//Daput dan Rumah Tangga
+import Img74 from "../../assets/product/dapur-rmhtangga/Ceradeco.png";
+import Img75 from "../../assets/product/dapur-rmhtangga/Clean-Matic.png";
+import Img76 from "../../assets/product/dapur-rmhtangga/Mami1.png";
+import Img77 from "../../assets/product/dapur-rmhtangga/Royal.png";
+
+//Vynil dan SPC
+import Img78 from "../../assets/product/vynil-spc/Alvera.png";
+import Img79 from "../../assets/product/vynil-spc/Taco.png";
+
+//Scaffholding
+import Img80 from "../../assets/product/scaffholding/TM.png";
+
+//Atap, Keramik, Tanah Liat dan Spandek
+import Img81 from "../../assets/product/atap-tanah-spandek/Bima.png";
+import Img82 from "../../assets/product/atap-tanah-spandek/Grand-Luxe.png";
+import Img83 from "../../assets/product/atap-tanah-spandek/Kanmuri.png";
+import Img84 from "../../assets/product/atap-tanah-spandek/Kia.png";
+import Img85 from "../../assets/product/atap-tanah-spandek/Rooftop.png";
 
 const ProductData = [
   // Keramik
@@ -440,8 +475,126 @@ const ProductData = [
   //Kuku Macan, Lis, Stepnosing Tangga
   {
     id: 68,
-    img: Img68,
+    img: ImgPondokKeramik,
     title: "Kuku Macan, Lis, Stepnosing Tangga",
+  },
+
+  // Glassblock dan Loster / Roster
+  {
+    id: 69,
+    img: Img68,
+    title: "Glassblock dan Loster / Roster",
+  },
+
+  // Marmer
+  {
+    id: 70,
+    img: ImgPondokKeramik,
+    title: "Marmer",
+  },
+
+  // Mosaic
+  {
+    id: 71,
+    img: Img69,
+    title: "Mosaic",
+  },
+  {
+    id: 72,
+    img: Img70,
+    title: "Mosaic",
+  },
+  {
+    id: 73,
+    img: Img71,
+    title: "Mosaic",
+  },
+
+  // Lampu
+  {
+    id: 74,
+    img: Img72,
+    title: "Lampu",
+  },
+  {
+    id: 75,
+    img: Img73,
+    title: "Lampu",
+  },
+
+  // Dapur dan Rumah Tangga
+  {
+    id: 76,
+    img: Img74,
+    title: "Dapur dan Rumah Tangga",
+  },
+  {
+    id: 77,
+    img: Img75,
+    title: "Dapur dan Rumah Tangga",
+  },
+  {
+    id: 78,
+    img: Img76,
+    title: "Dapur dan Rumah Tangga",
+  },
+  {
+    id: 79,
+    img: Img77,
+    title: "Dapur dan Rumah Tangga",
+  },
+
+  // Vynil dan SPC
+  {
+    id: 80,
+    img: Img78,
+    title: "Vynil dan SPC",
+  },
+  {
+    id: 81,
+    img: Img79,
+    title: "Vynil dan SPC",
+  },
+
+  // Scaffholding
+  {
+    id: 82,
+    img: Img80,
+    title: "Scaffholding",
+  },
+
+  // Rollingdoor Otomatis
+  {
+    id: 83,
+    img: ImgPondokKeramik,
+    title: "Rolling Door Otomatis",
+  },
+
+  // Atap, Tanah Liat dan Spandek
+  {
+    id: 84,
+    img: Img81,
+    title: "Atap, Tanah Liat dan Spandek",
+  },
+  {
+    id: 84,
+    img: Img82,
+    title: "Atap, Tanah Liat dan Spandek",
+  },
+  {
+    id: 85,
+    img: Img83,
+    title: "Atap, Tanah Liat dan Spandek",
+  },
+  {
+    id: 86,
+    img: Img84,
+    title: "Atap, Tanah Liat dan Spandek",
+  },
+  {
+    id: 87,
+    img: Img85,
+    title: "Atap, Tanah Liat dan Spandek",
   },
 ];
 
