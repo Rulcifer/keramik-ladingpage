@@ -18,6 +18,7 @@ const BlogData = [
         
         Aliquet dignissim quisque nam vehicula, massa himenaeos mattis primis. Quam platea fames habitasse malesuada ipsum felis placerat. Sollicitudin sagittis sodales curabitur cras magna ipsum facilisi sodales iaculis.
       `,
+    chapter_title: "Jadikan keramik sebagai elemen desain interior modern.",
     image: Img1,
   },
   {

@@ -33,7 +33,7 @@ const Navbar = () => {
           <div className="flex items-center gap-4">
             <a href="/#">
               <img
-                src="/src/assets/logo-100x67.png"
+                src="./src/assets/logo-100x67.png"
                 alt="Pondok Keramik"
                 className="h-[67px] w-[100px] sm:h-[80px] sm:w-[120px]"
               />
