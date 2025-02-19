@@ -18,7 +18,7 @@ const BlogDetail = () => {
         alt={blog.title}
         className="w-full h-[300px] object-cover rounded-lg my-4"
       />
-      <p className="text-lg">{blog.content}</p>
+      <p className="text-lg whitespace-pre-line">{blog.content}</p>
     </div>
   );
 };
