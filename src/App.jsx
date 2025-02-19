@@ -1,4 +1,5 @@
 import React from "react";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar/Navbar";
 // import Hero from "./components/Hero/Hero";
 import HeroBanner from "./components/Hero/Hero-Banner";
@@ -21,6 +22,9 @@ import Footer from "./components/Footer/Footer.jsx";
 // import Popup from "./components/Popup/Popup.jsx";
 // import AOS from "aos";
 // import "aos/dist/aos.css";
+
+//Halaman lain
+import BlogDetail from "./pages/Blogs.jsx";
 
 const BannerData1 = {
   image: banner1,
@@ -71,28 +75,52 @@ const App = () => {
   // }, []);
 
   return (
-    <div className="bg-white dark:bg-gray-900 dark:text-white duration-200 overflow-hidden">
-      <Navbar handleOrderPopup={handleOrderPopup} />
-      {/* <Hero handleOrderPopup={handleOrderPopup} /> */}
-      <HeroBanner handleOrderPopup={handleOrderPopup} />
-      <Category />
-      <Category2 />
-      <Services />
-      <BannerImg data={BannerData1} />
-      {/* <Banner data={BannerData} /> */}
-      {/* <Products /> */}
-      <Products2 />
-      {/* <div className="flex gap-4">
-        <Banner data={BannerData2} />
-        <Banner data={BannerData3} />
-      </div> */}
-      <BannerImg data={BannerData2} />
-      <Blogs />
-      <Partners />
-      <Footer />
-      {/* <Popup orderPopup={orderPopup} handleOrderPopup={handleOrderPopup} /> */}
-    </div>
+    <Router>
+      <div className="bg-white dark:bg-gray-900 dark:text-white duration-200 overflow-hidden">
+        <Navbar handleOrderPopup={handleOrderPopup} />
+        <Routes>
+          <Route
+            path="/"
+            element={
+              <>
+                <HeroBanner />
+                <Category />
+                <Category2 />
+                <Services />
+                <BannerImg data={BannerData1} />
+                <Products2 />
+                <BannerImg data={BannerData2} />
+                <Blogs />
+                <Partners />
+                <Footer />
+              </>
+            }
+          />
+          {/* Halaman Detail Blog */}
+          <Route path="/blog/:id" element={<BlogDetail />} />
+        </Routes>
+      </div>
+    </Router>
   );
 };
 
 export default App;
+
+// {/* <Hero handleOrderPopup={handleOrderPopup} /> */}
+// <HeroBanner handleOrderPopup={handleOrderPopup} />
+// <Category />
+// <Category2 />
+// <Services />
+// <BannerImg data={BannerData1} />
+// {/* <Banner data={BannerData} /> */}
+// {/* <Products /> */}
+// <Products2 />
+// {/* <div className="flex gap-4">
+//   <Banner data={BannerData2} />
+//   <Banner data={BannerData3} />
+// </div> */}
+// <BannerImg data={BannerData2} />
+// <Blogs />
+// <Partners />
+// <Footer />
+// {/* <Popup orderPopup={orderPopup} handleOrderPopup={handleOrderPopup} /> */}
