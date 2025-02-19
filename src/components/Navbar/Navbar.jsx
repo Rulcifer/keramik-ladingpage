@@ -1,5 +1,6 @@
 // import { FaCartShopping } from "react-icons/fa6";
 import { IoMdSearch } from "react-icons/io";
+import Logo from "../../assets/logo-100x67.png";
 
 const MenuLinks = [
   {
@@ -33,7 +34,7 @@ const Navbar = () => {
           <div className="flex items-center gap-4">
             <a href="/#">
               <img
-                src="../../src/assets/logo-100x67.png"
+                src={Logo}
                 alt="Pondok Keramik"
                 className="h-[67px] w-[100px] sm:h-[80px] sm:w-[120px]"
               />

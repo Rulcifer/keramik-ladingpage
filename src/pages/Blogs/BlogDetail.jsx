@@ -29,14 +29,35 @@ const BlogDetail = () => {
 
       {/* Content Grid */}
       <div className="container content-grid grid grid-cols-1 md:grid-cols-3 gap-6">
-        {/* Blog Side Banner */}
-        <div className="min-w-0 px-0 blog-sideBanner">
-          <img
-            src={blog.image}
-            alt={blog.title}
-            className="w-full h-[300px] object-cover rounded-lg my-4"
-          />
-          {/* Tambahkan banner atau iklan di sini */}
+        {/* Table of Contents */}
+        <div
+          className="flex flex-col gap-6 p-4 rounded-lg sj-color-bg-gray-50"
+          data-v-1cc73ed4=""
+        >
+          <h4 className="sj-text-display2" data-v-1cc73ed4="">
+            Baca Kategori Lainnya
+          </h4>
+          <a
+            href="/blog/berita-juragan"
+            className="sj-text-display4 underline text-text-main"
+            data-v-1cc73ed4=""
+          >
+            Berita Juragan
+          </a>
+          <a
+            href="/blog/promo-event"
+            className="sj-text-display4 underline text-text-main"
+            data-v-1cc73ed4=""
+          >
+            Promo dan Event
+          </a>
+          <a
+            href="/blog/tips-juragan"
+            className="sj-text-display4 underline text-text-main"
+            data-v-1cc73ed4=""
+          >
+            Tips Juragan
+          </a>
         </div>
 
         {/* Blog Content */}
@@ -50,12 +71,6 @@ const BlogDetail = () => {
           {/* Share Links */}
           <div className="flex items-center gap-3 blog-shareLink">
             {/* Tambahkan tombol share */}
-          </div>
-
-          {/* Table of Contents */}
-          <div className="flex flex-col gap-8 blog-toc">
-            {/* Tambahkan daftar isi jika ada */}
-            <h1 className="text-2xl font-bold">Kategori Lainnya</h1>
           </div>
 
           {/* Related Articles */}
@@ -80,6 +95,16 @@ const BlogDetail = () => {
                 </a>
               ))}
             </div>
+          </div>
+
+          {/* Blog Side Banner */}
+          <div className="min-w-0 px-0 blog-sideBanner">
+            <img
+              src={blog.image}
+              alt={blog.title}
+              className="w-full h-[300px] object-cover rounded-lg my-4"
+            />
+            {/* Tambahkan banner atau iklan di sini */}
           </div>
         </div>
       </div>

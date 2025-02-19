@@ -12,12 +12,14 @@ const BlogData = [
     content: `
         Lorem ipsum odor amet, consectetuer adipiscing elit. Luctus ullamcorper ante litora class egestas conubia magnis. Penatibus pellentesque quam litora magnis quisque auctor metus platea. Varius condimentum sit taciti in dis fames sagittis rhoncus. Fusce nostra natoque dolor penatibus pulvinar nisi. In pellentesque viverra curabitur dictumst pretium urna arcu. Dolor lacus imperdiet primis venenatis mi. Sapien curabitur faucibus, mauris donec vitae natoque. Molestie conubia feugiat senectus aenean parturient turpis ad efficitur. Etiam gravida per; nam quisque urna massa curabitur.
         
-        Malesuada egestas habitasse litora faucibus feugiat mi curae. Mauris fringilla dolor penatibus consequat curae. Orci semper mauris lacus nisi eros elementum. Non adipiscing varius tellus suspendisse euismod semper. 
-        
-        Dolor tincidunt volutpat magnis auctor litora sociosqu. Convallis quis in rutrum magnis viverra nisi nunc laoreet. Sit rutrum quis mollis pulvinar gravida augue cursus. Libero auctor facilisis neque turpis consectetur aenean.
+        Malesuada egestas habitasse litora faucibus feugiat mi curae. Mauris fringilla dolor penatibus consequat curae. Orci semper mauris lacus nisi eros elementum. Non adipiscing varius tellus suspendisse euismod semper. Dolor tincidunt volutpat magnis auctor litora sociosqu. Convallis quis in rutrum magnis viverra nisi nunc laoreet. Sit rutrum quis mollis pulvinar gravida augue cursus. Libero auctor facilisis neque turpis consectetur aenean.
         
         Aliquet dignissim quisque nam vehicula, massa himenaeos mattis primis. Quam platea fames habitasse malesuada ipsum felis placerat. Sollicitudin sagittis sodales curabitur cras magna ipsum facilisi sodales iaculis.
-      `,
+
+        Lorem ipsum odor amet, consectetuer adipiscing elit. Luctus ullamcorper ante litora class egestas conubia magnis. Penatibus pellentesque quam litora magnis quisque auctor metus platea. Varius condimentum sit taciti in dis fames sagittis rhoncus. Fusce nostra natoque dolor penatibus pulvinar nisi. In pellentesque viverra curabitur dictumst pretium urna arcu. Dolor lacus imperdiet primis venenatis mi. Sapien curabitur faucibus, mauris donec vitae natoque. Molestie conubia feugiat senectus aenean parturient turpis ad efficitur. Etiam gravida per; nam quisque urna massa curabitur.
+        
+        Malesuada egestas habitasse litora faucibus feugiat mi curae. Mauris fringilla dolor penatibus consequat curae. Orci semper mauris lacus nisi eros elementum. Non adipiscing varius tellus suspendisse euismod semper. Dolor tincidunt volutpat magnis auctor litora sociosqu. Convallis quis in rutrum magnis viverra nisi nunc laoreet. Sit rutrum quis mollis pulvinar gravida augue cursus. Libero auctor facilisis neque turpis consectetur aenean.
+        `,
     chapter_title: "Jadikan keramik sebagai elemen desain interior modern.",
     image: Img1,
   },
