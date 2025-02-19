@@ -2,6 +2,9 @@ import Heading from "../Shared/Heading";
 import Image1 from "../../assets/category/keramik1.png";
 import Image2 from "../../assets/category/keramik2.png";
 import Image3 from "../../assets/category/keramik3.png";
+import Img1 from "../../assets/category/milazzo-tirana-40x40.png";
+import Img2 from "../../assets/category/milazzo-warsawa-50x50.png";
+import Img3 from "../../assets/category/milazzo-kamala-25x40.png";
 
 const Category = () => {
   return (
@@ -29,7 +32,7 @@ const Category = () => {
               </div>
             </div>
             <img
-              src={Image1}
+              src={Img1}
               alt=""
               className="h-[250px] w-[540px] absolute left-32 bottom-5 z-0 drop-shadow-[-8px_4px_6px_rgba(0,0,0,.4)]"
             />
@@ -49,7 +52,7 @@ const Category = () => {
               </div>
             </div>
             <img
-              src={Image2}
+              src={Img2}
               alt=""
               className="h-[250px] w-[540px] absolute left-32 bottom-5 z-0 drop-shadow-[-8px_4px_6px_rgba(0,0,0,.4)]"
             />
@@ -69,7 +72,7 @@ const Category = () => {
               </div>
             </div>
             <img
-              src={Image3}
+              src={Img3}
               alt=""
               className="h-[250px] w-[540px] absolute left-32 bottom-5 z-0 drop-shadow-[-8px_4px_6px_rgba(0,0,0,.4)]"
             />

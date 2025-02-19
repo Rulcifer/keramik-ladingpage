@@ -1,4 +1,4 @@
-import { FaCaretDown, FaCartShopping } from "react-icons/fa6";
+// import { FaCartShopping } from "react-icons/fa6";
 import { IoMdSearch } from "react-icons/io";
 
 const MenuLinks = [
@@ -10,12 +10,17 @@ const MenuLinks = [
   {
     id: 2,
     name: "Produk",
-    link: "/#shop",
+    link: "/#produk",
   },
   {
     id: 3,
     name: "Promosi",
-    link: "/#about",
+    link: "/#promosi",
+  },
+  {
+    id: 3,
+    name: "Blogs",
+    link: "/#blogs",
   },
 ];
 
@@ -26,13 +31,14 @@ const Navbar = () => {
         <div className="container flex justify-between items-center">
           {/* {logo and link section} */}
           <div className="flex items-center gap-4">
-            <a
-              href="#"
-              className="text-primary
-            font-semibold tracking-widest text-2xl uppercase sm:text-3xl"
-            >
-              PONDOK KERAMIK
+            <a href="/#">
+              <img
+                src="/src/assets/logo-100x67.png"
+                alt="Pondok Keramik"
+                className="h-[67px] w-[100px] sm:h-[80px] sm:w-[120px]"
+              />
             </a>
+
             {/* menu item */}
             <div className="hidden lg:block">
               <ul className="flex items-center gap-4">
@@ -52,25 +58,6 @@ const Navbar = () => {
                   </li>
                 ))}
                 {/* dropdown */}
-                <li className="relative cursor-pointer group">
-                  <a
-                    href="#"
-                    className="flex items-center gap-[2px] font-semibold text-gray-500 dark:hover:text-white py-2"
-                  >
-                    Lainnya
-                    <span>
-                      <FaCaretDown className="group-hover:rotate-180 duration-300" />
-                    </span>
-                  </a>
-                  {/* dropdown link */}
-                  {/* <div>
-                    <ul>
-                      {DropdownLinks.map((data, index) => (
-                        <li></li>
-                      ))}
-                    </ul>
-                  </div> */}
-                </li>
               </ul>
             </div>
           </div>
@@ -83,12 +70,12 @@ const Navbar = () => {
               <IoMdSearch className="text-xl text-gray-600 group-hover:text-primary dark:text-gray-400 absolute top-1/2 -translate-y-1/2 right-3" />
             </div>
             {/* order button section */}
-            <button className="relative-3">
-              <FaCartShopping className="text-xl text-gray-600 dark:text-gray-400" />
-              {/* <div className="w-4 h-4 bg-red-500 text-white rounded-full absolute top-0 right-0 flex items-center justify-center text-xs">
+            {/* <button className="relative-3"> */}
+            {/* <FaCartShopping className="text-xl text-gray-600 dark:text-gray-400" /> */}
+            {/* <div className="w-4 h-4 bg-red-500 text-white rounded-full absolute top-0 right-0 flex items-center justify-center text-xs">
                 7
               </div> */}
-            </button>
+            {/* </button> */}
             {/* dark mode section */}
             <div></div>
           </div>
@@ -99,3 +86,26 @@ const Navbar = () => {
 };
 
 export default Navbar;
+
+// dropdown link
+{
+  /* <li className="relative cursor-pointer group">
+                  <a
+                    href="#"
+                    className="flex items-center gap-[2px] font-semibold text-gray-500 dark:hover:text-white py-2"
+                  >
+                    Lainnya
+                    <span>
+                      <FaCaretDown className="group-hover:rotate-180 duration-300" />
+                    </span>
+                  </a>
+                 
+                  <div>
+                    <ul>
+                      {DropdownLinks.map((data, index) => (
+                        <li></li>
+                      ))}
+                    </ul>
+                  </div>
+                </li> */
+}

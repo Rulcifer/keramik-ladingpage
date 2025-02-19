@@ -1,6 +1,6 @@
-import Image1 from "../../assets/category/keramik1.png";
-import Image4 from "../../assets/category/keramik4.png";
-import Image5 from "../../assets/category/keramik5.png";
+import Img1 from "../../assets/category/granit-express-60x60.jpg";
+import Img2 from "../../assets/category/granit-imperial-60x60.png";
+import Img3 from "../../assets/category/granit-eleganza-15x60.jpg";
 
 const Category = () => {
   return (
@@ -13,7 +13,7 @@ const Category = () => {
             <div className="relative z-10">
               <div className="mb-4">
                 <p className="mb-[2px] text-gray-100">Jenis</p>
-                <p className="text-2xl font-semibold mb-[2px]">Keramik</p>
+                <p className="text-2xl font-semibold mb-[2px]">Granit</p>
                 <p className="text-4xl xl:text-5xl font-bold opacity-80">
                   25x40
                 </p>
@@ -23,7 +23,7 @@ const Category = () => {
               </div>
             </div>
             <img
-              src={Image4}
+              src={Img1}
               alt=""
               className="h-[250px] w-[540px] absolute left-32 bottom-5 z-0 drop-shadow-[-8px_4px_6px_rgba(0,0,0,.4)]"
             />
@@ -33,7 +33,7 @@ const Category = () => {
             <div className="relative z-10">
               <div className="mb-4">
                 <p className="mb-[2px] text-gray-100">Jenis</p>
-                <p className="text-2xl font-semibold mb-[2px]">Keramik</p>
+                <p className="text-2xl font-semibold mb-[2px]">Granit</p>
                 <p className="text-4xl xl:text-5xl font-bold opacity-80">
                   40x40
                 </p>
@@ -43,7 +43,7 @@ const Category = () => {
               </div>
             </div>
             <img
-              src={Image5}
+              src={Img2}
               alt=""
               className="h-[250px] w-[540px] absolute left-32 bottom-5 z-0 drop-shadow-[-8px_4px_6px_rgba(0,0,0,.4)]"
             />
@@ -53,7 +53,7 @@ const Category = () => {
             <div className="relative z-10">
               <div className="mb-4">
                 <p className="mb-[2px] text-gray-100">Jenis</p>
-                <p className="text-2xl font-semibold mb-[2px]">Keramik</p>
+                <p className="text-2xl font-semibold mb-[2px]">Granit</p>
                 <p className="text-4xl xl:text-5xl font-bold opacity-80">
                   25x25
                 </p>
@@ -63,7 +63,7 @@ const Category = () => {
               </div>
             </div>
             <img
-              src={Image1}
+              src={Img3}
               alt=""
               className="h-[250px] w-[540px] absolute left-32 bottom-5 z-0 drop-shadow-[-8px_4px_6px_rgba(0,0,0,.4)]"
             />

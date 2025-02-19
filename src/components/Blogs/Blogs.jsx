@@ -1,6 +1,6 @@
 import Heading from "../Shared/Heading";
 import { Link } from "react-router-dom";
-import BlogData from "../../pages/data/BlogData";
+import BlogData from "../../pages/Blogs/data/BlogData";
 
 const Blogs = () => {
   return (

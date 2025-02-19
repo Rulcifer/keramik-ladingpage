@@ -24,7 +24,7 @@ import Footer from "./components/Footer/Footer.jsx";
 // import "aos/dist/aos.css";
 
 //Halaman lain
-import BlogDetail from "./pages/Blogs.jsx";
+import BlogDetail from "./pages/Blogs/BlogDetail.jsx";
 
 const BannerData1 = {
   image: banner1,
