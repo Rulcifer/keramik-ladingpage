@@ -28,6 +28,7 @@ import BlogDetail from "./pages/Blogs/BlogDetail.jsx";
 import BlogList from "./pages/Blogs/Blogs.jsx";
 import ProductDetail from "./pages/E-commerce/ProductDetail.jsx";
 import ProductList from "./pages/E-commerce/ProductList.jsx";
+// import PromoList from "./pages/E-commerce/ProductPromo.jsx";
 
 const BannerData1 = {
   image: banner1,
@@ -108,6 +109,8 @@ const App = () => {
           <Route path="/produk" element={<ProductList />} />
           {/* Halaman Detail Produk */}
           <Route path="/produk/:id" element={<ProductDetail />} />
+          {/* Halaman Product Promo */}
+          {/* <Route path="/promo" element={<PromoList />} /> */}
         </Routes>
         <Footer />
       </div>
