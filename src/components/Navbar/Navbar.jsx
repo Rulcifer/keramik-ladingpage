@@ -6,17 +6,17 @@ const MenuLinks = [
   {
     id: 1,
     name: "Halaman Utama",
-    link: "/#",
+    link: "/",
   },
   {
     id: 2,
     name: "Produk",
-    link: "/#produk",
+    link: "/produk",
   },
   {
     id: 3,
     name: "Promosi",
-    link: "/#promosi",
+    link: "/promosi",
   },
   {
     id: 3,
