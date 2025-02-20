@@ -26,6 +26,8 @@ import Footer from "./components/Footer/Footer.jsx";
 //Halaman lain
 import BlogDetail from "./pages/Blogs/BlogDetail.jsx";
 import BlogList from "./pages/Blogs/Blogs.jsx";
+import ProductDetail from "./pages/E-commerce/ProductDetail.jsx";
+import ProductList from "./pages/E-commerce/ProductList.jsx";
 
 const BannerData1 = {
   image: banner1,
@@ -101,6 +103,11 @@ const App = () => {
           <Route path="/blog" element={<BlogList />} />
           {/* Halaman Detail Blog */}
           <Route path="/blog/:id" element={<BlogDetail />} />
+
+          {/* Halaman Produk List */}
+          <Route path="/produk" element={<ProductList />} />
+          {/* Halaman Detail Produk */}
+          <Route path="/produk/:id" element={<ProductDetail />} />
         </Routes>
         <Footer />
       </div>

@@ -18,11 +18,8 @@ const Blogs = () => {
           {BlogData.map((data) => (
             <Link to={`/blog/${data.id}`} key={data.id} className="block">
               {" "}
-              {/* Tambahkan Link di sini */}
               <div className="cursor-pointer">
                 {" "}
-                {/* Tambahkan pointer untuk indikasi bisa diklik */}
-                {/* image section */}
                 <div className="overflow-hidden rounded-2xl mb-2">
                   <img
                     src={data.image}
