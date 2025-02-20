@@ -30,33 +30,23 @@ const BlogDetail = () => {
       {/* Content Grid */}
       <div className="container content-grid grid grid-cols-1 md:grid-cols-3 gap-6">
         {/* Table of Contents */}
-        <div
-          className="flex flex-col gap-6 p-4 rounded-lg sj-color-bg-gray-50"
-          data-v-1cc73ed4=""
-        >
-          <h4 className="sj-text-display2" data-v-1cc73ed4="">
+        <div className="flex flex-col gap-6 p-4 rounded-lg sj-color-bg-gray-50">
+          <h4 className="text-2xl font-semibold text-gray-800">
             Baca Kategori Lainnya
           </h4>
+
           <a
-            href="/blog/berita-juragan"
-            className="sj-text-display4 underline text-text-main"
-            data-v-1cc73ed4=""
+            href="/blog"
+            className="text-lg font-medium text-blue-600 hover:text-blue-800 transition-all duration-300 underline"
           >
-            Berita Juragan
+            Berita Pondok Keramik
           </a>
+
           <a
             href="/blog/promo-event"
-            className="sj-text-display4 underline text-text-main"
-            data-v-1cc73ed4=""
+            className="text-lg font-medium text-blue-600 hover:text-blue-800 transition-all duration-300 underline"
           >
             Promo dan Event
-          </a>
-          <a
-            href="/blog/tips-juragan"
-            className="sj-text-display4 underline text-text-main"
-            data-v-1cc73ed4=""
-          >
-            Tips Juragan
           </a>
         </div>
 

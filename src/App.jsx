@@ -25,6 +25,7 @@ import Footer from "./components/Footer/Footer.jsx";
 
 //Halaman lain
 import BlogDetail from "./pages/Blogs/BlogDetail.jsx";
+import BlogList from "./pages/Blogs/Blogs.jsx";
 
 const BannerData1 = {
   image: banner1,
@@ -92,13 +93,16 @@ const App = () => {
                 <BannerImg data={BannerData2} />
                 <Blogs />
                 <Partners />
-                <Footer />
               </>
             }
           />
+
+          {/* Halaman Blog List */}
+          <Route path="/blog" element={<BlogList />} />
           {/* Halaman Detail Blog */}
           <Route path="/blog/:id" element={<BlogDetail />} />
         </Routes>
+        <Footer />
       </div>
     </Router>
   );

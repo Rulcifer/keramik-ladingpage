@@ -1,5 +1,5 @@
 // import { FaCartShopping } from "react-icons/fa6";
-import { IoMdSearch } from "react-icons/io";
+// import { IoMdSearch } from "react-icons/io";
 import Logo from "../../assets/logo-100x67.png";
 
 const MenuLinks = [
@@ -21,7 +21,7 @@ const MenuLinks = [
   {
     id: 3,
     name: "Blogs",
-    link: "/#blogs",
+    link: "/blog",
   },
 ];
 
@@ -66,10 +66,10 @@ const Navbar = () => {
           {/* navbar right section */}
           <div className="flex justify-between items-center gap-4">
             {/* search bar section */}
-            <div className="relative group hidden sm:block">
+            {/* <div className="relative group hidden sm:block">
               <input type="text" placeholder="search" className="search-bar" />
               <IoMdSearch className="text-xl text-gray-600 group-hover:text-primary dark:text-gray-400 absolute top-1/2 -translate-y-1/2 right-3" />
-            </div>
+            </div> */}
             {/* order button section */}
             {/* <button className="relative-3"> */}
             {/* <FaCartShopping className="text-xl text-gray-600 dark:text-gray-400" /> */}
